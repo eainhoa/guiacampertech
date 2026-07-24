@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuíaCamperTech | Tu Guía de Gadgets, Energía y Equipamiento Camper</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased min-h-screen flex flex-col justify-between">
+
+    <!-- HEADER / NAVEGACIÓN -->
+    <header class="bg-slate-900 text-white border-b border-slate-800 sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-xl font-extrabold tracking-tight flex items-center gap-2 text-emerald-400">
+                <span>⚡</span> GuíaCamper<span class="text-white">Tech</span>
+            </a>
+            <nav class="hidden md:flex gap-6 text-sm font-medium text-slate-300">
+                <a href="#categorias" class="hover:text-emerald-400 transition">Categorías</a>
+                <a href="#destacados" class="hover:text-emerald-400 transition">Artículos Top</a>
+                <a href="#nosotros" class="hover:text-emerald-400 transition">Sobre Nosotros</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO SECTION DE PORTADA -->
+    <section class="bg-slate-900 text-white py-12 sm:py-20 border-b border-slate-800">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <div class="inline-block px-3 py-1 bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 text-xs font-semibold rounded-full mb-4">
+                Equipamiento & Gadgets camper optimizados
+            </div>
+            <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight mb-6 leading-tight">
+                Equipa tu Furgoneta o Autocaravana con la <span class="text-emerald-400">Mejor Tecnología</span>
+            </h1>
+            <p class="text-slate-300 text-base sm:text-lg mb-8 max-w-2xl mx-auto leading-relaxed">
+                Análisis técnicos independientes, comparativas de bajo consumo y soluciones de espacio para viajar con independencia y la máxima comodidad.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#destacados" class="bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-bold px-6 py-3 rounded-xl transition text-sm shadow-lg shadow-emerald-500/10">
+                    Explorar Guías de Compra ↗
+                </a>
+                <a href="#categorias" class="bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold px-6 py-3 rounded-xl transition text-sm border border-slate-700">
+                    Ver Categorías
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTENEDOR PRINCIPAL -->
+    <main class="max-w-6xl mx-auto px-4 py-12 flex-grow w-full space-y-16">
+
+        <!-- CATEGORÍAS PRINCIPALES -->
+        <section id="categorias">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-2">
+                <div>
+                    <h2 class="text-2xl font-bold text-slate-900">Categorías de Equipamiento</h2>
+                    <p class="text-slate-500 text-sm">Encuentra exactamente la solución que necesita tu camper.</p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- CATEGORÍA 1 -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200/80 hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-emerald-100 rounded-xl flex items-center justify-center text-2xl mb-4">⚡</div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Energía & Baterías</h3>
+                    <p class="text-slate-600 text-sm mb-4 leading-relaxed">
+                        Estaciones de energía portátiles, baterías LiFePO4, placas solares flexibles y reguladores.
+                    </p>
+                    <a href="articulos/estaciones-energia.html" class="text-emerald-600 font-semibold text-xs hover:underline inline-flex items-center gap-1">
+                        Ver análisis de energía ➔
+                    </a>
+                </div>
+
+                <!-- CATEGORÍA 2 -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200/80 hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center text-2xl mb-4">❄️</div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Electrodomésticos 12V</h3>
+                    <p class="text-slate-600 text-sm mb-4 leading-relaxed">
+                        Neveras de compresor de bajo consumo, mini freidoras de aire y climatización eficiente.
+                    </p>
+                    <a href="articulos/neveras-12v.html" class="text-emerald-600 font-semibold text-xs hover:underline inline-flex items-center gap-1">
+                        Ver análisis de frío ➔
+                    </a>
+                </div>
+
+                <!-- CATEGORÍA 3 -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200/80 hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-indigo-100 rounded-xl flex items-center justify-center text-2xl mb-4">🚿</div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Confort & Agua</h3>
+                    <p class="text-slate-600 text-sm mb-4 leading-relaxed">
+                        Duchas portátiles a 12V, potties químicos compactos y calentadores de agua de viaje.
+                    </p>
+                    <a href="articulos/duchas-portatiles.html" class="text-emerald-600 font-semibold text-xs hover:underline inline-flex items-center gap-1">
+                        Ver guías de agua ➔
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ARTÍCULOS DESTACADOS / GUÍAS TOP -->
+        <section id="destacados">
+            <div class="mb-8">
+                <h2 class="text-2xl font-bold text-slate-900">Guías de Compra Destacadas</h2>
+                <p class="text-slate-500 text-sm">Nuestras comparativas detalladas con pros, contras y enlaces actualizados.</p>
+            </div>
+
+            <!-- GRID AHORA DE 3 COLUMNAS EN PANTALLAS GRANDES -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <!-- CARD ARTÍCULO 1 -->
+                <article class="bg-white rounded-2xl shadow-sm border border-slate-200/80 overflow-hidden flex flex-col justify-between hover:border-emerald-300 transition">
+                    <div class="p-6">
+                        <div class="flex items-center gap-2 text-xs text-slate-400 mb-3">
+                            <span class="bg-emerald-100 text-emerald-800 font-semibold px-2 py-0.5 rounded">Energía</span>
+                            <span>•</span>
+                            <span>Lectura 6 min</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3 hover:text-emerald-600 transition">
+                            <a href="articulos/estaciones-energia.html">
+                                Las 5 Mejores Estaciones de Energía Portátiles para Camper (2026)
+                            </a>
+                        </h3>
+                        <p class="text-slate-600 text-sm mb-4 line-clamp-3 leading-relaxed">
+                            Analizamos modelos todo en uno (EcoFlow, BLUETTI) según su capacidad de carga, peso y velocidad de recarga por placa solar o 12V.
+                        </p>
+                    </div>
+                    <div class="bg-slate-50 p-4 px-6 border-t border-slate-100 flex justify-between items-center">
+                        <span class="text-xs text-slate-500">Actualizado en 2026</span>
+                        <a href="articulos/estaciones-energia.html" class="text-xs font-bold text-slate-900 hover:text-emerald-600 transition">
+                            Leer Guía ➔
+                        </a>
+                    </div>
+                </article>
+
+                <!-- CARD ARTÍCULO 2 -->
+                <article class="bg-white rounded-2xl shadow-sm border border-slate-200/80 overflow-hidden flex flex-col justify-between hover:border-emerald-300 transition">
+                    <div class="p-6">
+                        <div class="flex items-center gap-2 text-xs text-slate-400 mb-3">
+                            <span class="bg-cyan-100 text-cyan-800 font-semibold px-2 py-0.5 rounded">Electrodomésticos 12V</span>
+                            <span>•</span>
+                            <span>Lectura 7 min</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3 hover:text-emerald-600 transition">
+                            <a href="articulos/neveras-12v.html">
+                                Las 4 Mejores Neveras de Compresor a 12V para Furgoneta
+                            </a>
+                        </h3>
+                        <p class="text-slate-600 text-sm mb-4 line-clamp-3 leading-relaxed">
+                            Análisis de nunca más derretir hielo: modelos portátiles de bajo consumo de amperios, modo ECO silenciador y función congelador.
+                        </p>
+                    </div>
+                    <div class="bg-slate-50 p-4 px-6 border-t border-slate-100 flex justify-between items-center">
+                        <span class="text-xs text-slate-500">Actualizado en 2026</span>
+                        <a href="articulos/neveras-12v.html" class="text-xs font-bold text-slate-900 hover:text-emerald-600 transition">
+                            Leer Guía ➔
+                        </a>
+                    </div>
+                </article>
+
+                <!-- CARD ARTÍCULO 3 -->
+                <article class="bg-white rounded-2xl shadow-sm border border-slate-200/80 overflow-hidden flex flex-col justify-between hover:border-emerald-300 transition">
+                    <div class="p-6">
+                        <div class="flex items-center gap-2 text-xs text-slate-400 mb-3">
+                            <span class="bg-blue-100 text-blue-800 font-semibold px-2 py-0.5 rounded">Agua & Baño</span>
+                            <span>•</span>
+                            <span>Lectura 5 min</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3 hover:text-emerald-600 transition">
+                            <a href="articulos/duchas-portatiles.html">
+                                Las 3 Mejores Duchas Portátiles 12V para Camper
+                            </a>
+                        </h3>
+                        <p class="text-slate-600 text-sm mb-4 line-clamp-3 leading-relaxed">
+                            Comparativa de bombas sumergibles compactas, baterías USB recargables y bombas de presión para ducharte sin instalación.
+                        </p>
+                    </div>
+                    <div class="bg-slate-50 p-4 px-6 border-t border-slate-100 flex justify-between items-center">
+                        <span class="text-xs text-slate-500">Actualizado en 2026</span>
+                        <a href="articulos/duchas-portatiles.html" class="text-xs font-bold text-slate-900 hover:text-emerald-600 transition">
+                            Leer Guía ➔
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- SECCIÓN SOBRE NOSOTROS Y TRANSPARENCIA -->
+        <section id="nosotros" class="bg-emerald-950 text-white rounded-3xl p-8 sm:p-12">
+            <div class="max-w-3xl">
+                <span class="text-xs font-bold tracking-wider uppercase text-emerald-400 block mb-2">Transparencia & Pasión</span>
+                <h2 class="text-2xl sm:text-3xl font-extrabold mb-4">¿Por qué confiar en GuíaCamperTech?</h2>
+                <p class="text-slate-300 text-sm sm:text-base leading-relaxed mb-6">
+                    Sabemos que en una camper cada centímetro y cada vatio cuentan. Probamos y filtramos especificaciones reales para que no gastes dinero en aparatos pesados o ineficientes. Nuestras guías son neutras, claras y pensadas por y para viajeros.
+                </p>
+                <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 border-t border-emerald-900/80 pt-6 text-xs text-slate-300">
+                    <div>
+                        <span class="block font-bold text-white text-lg">100%</span>
+                        Análisis Neutros
+                    </div>
+                    <div>
+                        <span class="block font-bold text-white text-lg">0W</span>
+                        Gasto Innecesario
+                    </div>
+                    <div>
+                        <span class="block font-bold text-white text-lg">2026</span>
+                        Datos Actualizados
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-900 text-slate-400 text-xs py-8 border-t border-slate-800">
+        <div class="max-w-6xl mx-auto px-4 text-center space-y-3">
+            <p>© 2026 GuíaCamperTech. Todos los derechos reservados.</p>
+            <p class="text-slate-500 text-[11px] max-w-xl mx-auto">
+                Aviso de afiliados: GuíaCamperTech participa en el Programa de Afiliados de Amazon EU, un programa de publicidad para afiliados diseñado para ofrecer a sitios web un modo de obtener comisiones por publicidad.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
