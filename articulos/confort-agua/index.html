@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confort & Agua para Camper | GuíaCamperTech</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased min-h-screen flex flex-col justify-between">
+
+    <!-- HEADER / NAVEGACIÓN -->
+    <header class="bg-slate-900 text-white border-b border-slate-800 sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="../../index.html" class="text-xl font-extrabold tracking-tight flex items-center gap-2 text-emerald-400">
+                <span>⚡</span> GuíaCamper<span class="text-white">Tech</span>
+            </a>
+            <nav class="hidden md:flex gap-6 text-sm font-medium text-slate-300">
+                <a href="../energia/index.html" class="hover:text-emerald-400 transition">Energía y Baterías</a>
+                <a href="../electrodomesticos/index.html" class="hover:text-emerald-400 transition">Electrodomésticos 12V</a>
+                <a href="./index.html" class="text-emerald-400 font-semibold">Confort y Agua</a>
+                <a href="../../index.html#destacados" class="hover:text-emerald-400 transition">Guías</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- CABECERA DE LA CATEGORÍA -->
+    <section class="bg-slate-900 text-white py-10 sm:py-14 border-b border-slate-800">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <!-- BREADCRUMB / MIGA DE PAN -->
+            <div class="flex justify-center items-center gap-2 text-xs text-slate-400 mb-4">
+                <a href="../../index.html" class="hover:text-emerald-400 transition">Inicio</a>
+                <span>/</span>
+                <span class="text-teal-400 font-medium">Confort & Agua</span>
+            </div>
+            <div class="inline-flex items-center gap-2 px-3 py-1 bg-teal-500/10 text-teal-400 border border-teal-500/20 text-xs font-semibold rounded-full mb-4">
+                <span>🚿 Categoría de Equipamiento</span>
+            </div>
+            <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight mb-4">
+                Confort & Agua para Camper
+            </h1>
+            <p class="text-slate-300 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed">
+                Soluciones de higiene, baño portátil, potabilización de agua y mobiliario compacto para maximizar la comodidad y la independencia en tus rutas.
+            </p>
+        </div>
+    </section>
+
+    <!-- CONTENEDOR PRINCIPAL -->
+    <main class="max-w-6xl mx-auto px-4 py-12 flex-grow w-full space-y-8">
+
+        <div class="flex justify-between items-center border-b border-slate-200 pb-4">
+            <h2 class="text-xl font-bold text-slate-900">Guías & Comparativas Disponibles</h2>
+            <span class="text-xs font-semibold bg-teal-100 text-teal-800 px-2.5 py-1 rounded-full">
+                6 Artículos en esta sección
+            </span>
+        </div>
+
+        <!-- LISTADO DE ARTÍCULOS EN GRID -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+            <!-- ARTÍCULO 1 (SUBIDO) -->
+            <article class="bg-white rounded-2xl shadow-sm border border-slate-200/80 overflow-hidden flex flex-col justify-between hover:border-teal-400 transition">
+                <div class="p-6">
+                    <div class="flex items-center gap-2 text-xs text-slate-400 mb-3">
+                        <span class="bg-teal-100 text-teal-800 font-semibold px-2 py-0.5 rounded">Duchas Camper</span>
+                        <span>•</span>
+                        <span>Lectura 5 min</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-3 hover:text-emerald-600 transition">
+                        <a href="./duchas-portatiles.html">
+                            Las 3 Mejores Duchas Portátiles 12V y a Batería para Furgonetas Pequeñas
+                        </a>
+                    </h3>
+                    <p class="text-slate-600 text-sm line-clamp-3 leading-relaxed">
+                        Comparativa de bombas sumergibles compactas, baterías USB recargables y bombas de presión para ducharte sin instalación previa.
+                    </p>
+                </div>
+                <div class="bg-slate-50 p-4 px-6 border-t border-slate-100 flex justify-between items-center">
+                    <span class="text-xs text-teal-600 font-medium">✓ Disponible</span>
+                    <a href="./duchas-portatiles.html" class="text-xs font-bold text-slate-900 hover:text-teal-600 transition">
+                        Leer Artículo ➔
+                    </a>
+                </div>
+            </article>
+
+            <!-- ARTÍCULO 2 (CREADO/SUBIDO) -->
+            <article class="bg-white rounded-2xl shadow-sm border border-slate-200/80 overflow-hidden flex flex-col justify-between hover:border-teal-400 transition">
+                <div class="p-6">
+                    <div class="flex items-center gap-2 text-xs text-slate-400 mb-3">
+                        <span class="bg-teal-100 text-teal-800 font-semibold px-2 py-0.5 rounded">Sanitarios & WC</span>
+                        <span>•</span>
+                        <span>Lectura 6 min</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-3 hover:text-emerald-600 transition">
+                        <a href="./potis-wc-portatiles-camper.html">
+                            Los 4 Mejores Pótis y WC Portátiles (Secos vs Químicos)
+                        </a>
+                    </h3>
+                    <p class="text-slate-600 text-sm line-clamp-3 leading-relaxed">
+                        Guía definitiva sobre sanitarios para furgonetas: comparamos pótis químicos tradicionales frente a inodoros secos o de compostaje por autonomía y limpieza.
+                    </p>
+                </div>
+                <div class="bg-slate-50 p-4 px-6 border-t border-slate-100 flex justify-between items-center">
+                    <span class="text-xs text-teal-600 font-medium">✓ Disponible</span>
+                    <a href="./potis-wc-portatiles.html" class="text-xs font-bold text-slate-900 hover:text-teal-600 transition">
+                        Leer Artículo ➔
+                    </a>
+                </div>
+            </article>
+
+            <!-- ARTÍCULO 3 (PRÓXIMAMENTE) -->
+            <article class="bg-slate-50/70 rounded-2xl border border-dashed border-slate-300 opacity-80 flex flex-col justify-between">
+                <div class="p-6">
+                    <div class="flex items-center gap-2 text-xs text-slate-400 mb-3">
+                        <span class="bg-slate-200 text-slate-600 font-medium px-2 py-0.5 rounded">Agua Potable</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-700 mb-3">
+                        Filtros de Agua Portátiles para Camper: Las 3 mejores opciones para beber agua segura
+                    </h3>
+                    <p class="text-slate-500 text-sm line-clamp-3 leading-relaxed">
+                        Filtros UV, carbón activo y purificadores de gravedad para llenar tus depósitos en cualquier fuente sin riesgos.
+                    </p>
+                </div>
+                <div class="bg-slate-100 p-4 px-6 border-t border-slate-200 flex justify-between items-center text-xs text-slate-400">
+                    <span>⏳ Próximamente</span>
+                    <span class="cursor-not-allowed">En redacción...</span>
+                </div>
+            </article>
+
+            <!-- ARTÍCULO 4 (PRÓXIMAMENTE) -->
+            <article class="bg-slate-50/70 rounded-2xl border border-dashed border-slate-300 opacity-80 flex flex-col justify-between">
+                <div class="p-6">
+                    <div class="flex items-center gap-2 text-xs text-slate-400 mb-3">
+                        <span class="bg-slate-200 text-slate-600 font-medium px-2 py-0.5 rounded">Cocina de Gas</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-700 mb-3">
+                        Las 3 Mejores Cocinas de Gas Portátiles Plegables
+                    </h3>
+                    <p class="text-slate-500 text-sm line-clamp-3 leading-relaxed">
+                        Análisis de fogones ultraligeros con cartuchos B-250 y sistemas de seguridad piezoeléctricos para cocinar dentro o fuera.
+                    </p>
+                </div>
+                <div class="bg-slate-100 p-4 px-6 border-t border-slate-200 flex justify-between items-center text-xs text-slate-400">
+                    <span>⏳ Próximamente</span>
+                    <span class="cursor-not-allowed">En redacción...</span>
+                </div>
+            </article>
+
+            <!-- ARTÍCULO 5 (PRÓXIMAMENTE) -->
+            <article class="bg-slate-50/70 rounded-2xl border border-dashed border-slate-300 opacity-80 flex flex-col justify-between">
+                <div class="p-6">
+                    <div class="flex items-center gap-2 text-xs text-slate-400 mb-3">
+                        <span class="bg-slate-200 text-slate-600 font-medium px-2 py-0.5 rounded">Menaje y Espacio</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-700 mb-3">
+                        Kits de Menaje de Silicona Plegable: La solución para ahorrar espacio
+                    </h3>
+                    <p class="text-slate-500 text-sm line-clamp-3 leading-relaxed">
+                        Escurridores, cacerolas y cubos plegables de silicona alimentaria ideales para muebles camper ajustados.
+                    </p>
+                </div>
+                <div class="bg-slate-100 p-4 px-6 border-t border-slate-200 flex justify-between items-center text-xs text-slate-400">
+                    <span>⏳ Próximamente</span>
+                    <span class="cursor-not-allowed">En redacción...</span>
+                </div>
+            </article>
+
+            <!-- ARTÍCULO 6 (PRÓXIMAMENTE) -->
+            <article class="bg-slate-50/70 rounded-2xl border border-dashed border-slate-300 opacity-80 flex flex-col justify-between">
+                <div class="p-6">
+                    <div class="flex items-center gap-2 text-xs text-slate-400 mb-3">
+                        <span class="bg-slate-200 text-slate-600 font-medium px-2 py-0.5 rounded">Mobiliario Outdoor</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-700 mb-3">
+                        Las 4 Mejores Sillas y Mesas de Camping Ultracompactas
+                    </h3>
+                    <p class="text-slate-500 text-sm line-clamp-3 leading-relaxed">
+                        Mobiliario que se pliega al tamaño de una botella de agua: materiales de aluminio de aviación, peso y resistencia.
+                    </p>
+                </div>
+                <div class="bg-slate-100 p-4 px-6 border-t border-slate-200 flex justify-between items-center text-xs text-slate-400">
+                    <span>⏳ Próximamente</span>
+                    <span class="cursor-not-allowed">En redacción...</span>
+                </div>
+            </article>
+
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-900 text-slate-400 text-xs py-8 border-t border-slate-800">
+        <div class="max-w-6xl mx-auto px-4 text-center space-y-3">
+            <p>© 2026 GuíaCamperTech. Todos los derechos reservados.</p>
+            <p class="text-slate-500 text-[11px] max-w-xl mx-auto">
+                Aviso de afiliados: GuíaCamperTech participa en el Programa de Afiliados de Amazon EU.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
