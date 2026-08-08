@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- PÁGINA DE INICIO (HOME) -->
+  <url>
+    <loc>https://guiacampertech.com/</loc>
+    <lastmod>2026-08-08</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- PÁGINAS DE CATEGORÍA -->
+  <url>
+    <loc>https://guiacampertech.com/articulos/energia/</loc>
+    <lastmod>2026-08-08</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://guiacampertech.com/articulos/electrodomesticos/</loc>
+    <lastmod>2026-08-08</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://guiacampertech.com/articulos/confort-agua/</loc>
+    <lastmod>2026-08-08</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ARTÍCULOS: CATEGORÍA ENERGÍA & BATERÍAS -->
+  <url>
+    <loc>https://guiacampertech.com/articulos/energia/estaciones-energia.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://guiacampertech.com/articulos/energia/ecoflow-vs-bluetti-vs-jackery.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://guiacampertech.com/articulos/energia/placas-solares-portatiles.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ARTÍCULOS: CATEGORÍA ELECTRODOMÉSTICOS 12V -->
+  <url>
+    <loc>https://guiacampertech.com/articulos/electrodomesticos/calefacciones-estacionarias-diesel-12v.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://guiacampertech.com/articulos/electrodomesticos/neveras-12v.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ARTÍCULOS: CATEGORÍA CONFORT & AGUA -->
+  <url>
+    <loc>https://guiacampertech.com/articulos/confort-agua/duchas-portatiles.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://guiacampertech.com/articulos/confort-agua/potis-wc-portatiles-camper.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
