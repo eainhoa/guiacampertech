@@ -72,4 +72,18 @@
     <priority>0.7</priority>
   </url>
 
+  <!-- NUEVO: Baterías LiFePO4 12V -->
+  <url>
+    <loc>https://guiacampertech.com/articulos/energia/baterias-lifepo4-12v-camper.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- NUEVO: Ventiladores 12V y USB -->
+  <url>
+    <loc>https://guiacampertech.com/articulos/electrodomesticos/ventiladores-12v-usb-camper.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>
