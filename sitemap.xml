@@ -86,4 +86,18 @@
     <priority>0.7</priority>
   </url>
 
+  <!-- NUEVO: filtros agua-->
+  <url>
+    <loc>https://guiacampertech.com/articulos/confort-agua/filtros-agua-portatiles-camper.html</loc>
+    <lastmod>2026-08-17</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- NUEVO: neveras-->
+  <url>
+    <loc>https://guiacampertech.com/articulos/electrodomesticos/neveras-alpicool-vs-mobicool.html</loc>
+    <lastmod>2026-08-17</lastmod>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>
