@@ -100,4 +100,18 @@
     <priority>0.7</priority>
   </url>
 
+   <!-- NUEVO: cocinas-->
+  <url>
+    <loc>https://guiacampertech.com/articulos/confort-agua/cocinas-gas-portatiles-plegables.html</loc>
+    <lastmod>2026-09-01</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- NUEVO: neveras-->
+  <url>
+    <loc>https://guiacampertech.com/articulos/energia/inversores-corriente-12v-220v-camper.html.html</loc>
+    <lastmod>2026-09-01</lastmod>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>
